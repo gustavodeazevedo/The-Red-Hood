@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: none;
+  }
+  
+  body {
+    background-color: black;
+    color: white;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  header {
+    font: bold 15px Arial, serif;
+    color: white;
+    background-color: #01281a;
+    border-bottom: solid 5px black;
+  }
+  
+  #navHeader {
+    height: 40pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  #listNavTabs {
+    display: flex;
+    margin: 0;
+    padding: 12px;
+    padding-right: 10vh;
+    padding-left: 6vh;
+    width: 70%;
+    justify-content: center;
+    gap: 7%;
+    list-style-type: none;
+  }
+  
+  #listSocialTabs {
+    display: flex;
+    margin: 0;
+    padding: 12px;
+    padding-right: 10vh;
+    padding-left: 6vh;
+    width: 30%;
+    justify-content: center;
+    gap: 7%;
+    list-style-type: none;
+  }
+  
+  .itensHeader {
+    height: 100%;
+    margin: 0;
+    padding: 6px;
+    float: left;
+  }
+  
+  .itensHeader:hover {
+    color: #FF0000;
+    cursor: pointer;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 150pt;
+  }
+
+  #esquerdaMain {
+    width: 30%;
+    margin: 0;
+    background-image: linear-gradient(to bottom right, #01281a, black, black);
+    background-color: #013f28;
+  }
+
+  #direitaMain {
+    width: 30%;
+    background-image: linear-gradient(to bottom left, #01281a, black, black);
+    background-color: #013f28;
+  }
+  
+  span {
+    color: #FF0000;
+  }
+  
+  h1 {
+    font: bold 40pt Georgia, sans-serif;
+    text-align: center;
+    padding: 30pt;
+    padding-top: 5vh;
+    color: white;
+    height: 50%;
+    width: 40%;
+  }
+
+  #divDegrade {
+    width: 100%;
+    height: 200pt;
+    background-image: linear-gradient(180deg, black, #01281a, black);
+  }
+  
+  section {
+    font: bold 20px Arial, sans-serif;
+  }
+  
+  #inicioSection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40pt;
+    padding-top: 12vh;
+  }
+  
+  h2 {
+    padding-bottom: 15px;
+    color: #750000;
+  }
+  
+  p {
+    padding: 6px;
+    color: white;
+  }
+  
+  #bannerSection {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: 15px;
+  }
+  
+  #galeriaSection {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding-top: 7vh;
+  }
+
+  .imgadc{
+    height: 30%;
+    width: 30%;
+  }
+
+  .imgchar{
+    height: 34vh;
+  }
+  
+  #elementosSection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 7vh;
+  }
+
+  #faqSection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 7vh;
+  }
+
+  #downloadSection {
+    text-align: center;
+    padding-top: 7vh;
+  }
+
+  #downloadLink {
+    color: #FF0000;
+    text-decoration: underline #FF0000;
+  }
+  
+  .itensElementos {
+    padding-bottom: 12px;
+  }
+  
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 40pt;
+  }
+
+  #godot {
+    margin: auto;
+    padding-bottom: 10px;
+    height: 50pt;
+    width: 50pt;
+  }
+
+  #thumbs {
+    margin: auto;
+    padding-bottom: 10px;
+    height: 50pt;
+    width: 50pt;
+  }
+  
+  #termosDiv {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: auto;
+    gap: 8px;
+  }
+  
+  .termosLink {
+    color: #5C5CFF;
+  }
+  
+  .termosLink:hover {
+    cursor: pointer;
+  }
+  
